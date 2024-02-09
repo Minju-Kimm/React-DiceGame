@@ -1,0 +1,34 @@
+
+.App span {
+  font-size: 60px;
+}
+
+.App .banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.App .App-button {
+  margin: 6px;
+}
+
+
+.App .match { 
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-match {
+  background-color: #232b3d;
+  width: 250px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.inner-match:first-child {
+  margin-right: 15px;
+}
